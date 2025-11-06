@@ -4,40 +4,49 @@ body {
     margin: 1em;
     max-width: 50em;
 }
-    
+    /*Jag ändrade fonten för hela dokumentet samt lade till margin för lite utrymme 
+    från kanten och lade till en maximum bredd för responsivitet*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Specificerade separat font för rubrikerna*/
 
 .tabell1{
     border: 0.15em solid red;
     border-collapse: collapse;
     background-color: #ffcccc;
 }
+/*Undvek dubbel ram med border-collapse samt lade till en röd ram runt och en bakgrundsfärg*/
 
 .tabell2{
     border-collapse: collapse;
     background-color: #ffcc99;
     border:0.15em solid orange;
 }
+/*Gjorde samma sak för tabell två*/
 
 tr.red:hover {
     background-color: #e74444;
 }
+/*Lade till en bakgrundsfärg för när man hover över de olika raderna för bättre synlighet*/
 
  tr:hover{
     background-color: #eda03a;
  }
+/*Samma sak för tabell två*/
 
 th, td{
     border-left: 0.1em solid black;
     padding: 0.4em;
 }
+/*Lade till en rad till vänster för att separera datan. 
+Samt lade till padding för ett luftigare utseende*/
 
 tfoot{
     background-color: #eda03a;
 }
+/*Gav tabell footnoten en annan backgrundsfärg*/
 
 #source{
     color: #009900;
@@ -45,6 +54,8 @@ tfoot{
   right: 1em;
   bottom: auto;
 }
+/*Positionerade elementet med id source i nedre högra hörnet
+samt gav den en annan färg*/
 
 a:visited{
     color: #6544e7dd;
@@ -53,3 +64,4 @@ a:visited{
 a:hover{
     color: #e74444;
 }
+/*Gav länken en annan färg i olika stadier*/
